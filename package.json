@@ -1,0 +1,20 @@
+{
+  "name": "tonejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "webpack -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^1.7.3",
+    "tonal-midi": "^0.69.0",
+    "tone": "^0.9.0",
+    "volleyball": "^1.4.1",
+    "webpack": "^2.2.1"
+  }
+}
