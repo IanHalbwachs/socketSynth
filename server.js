@@ -48,8 +48,6 @@ io.on('connection', function (socket) {
     }
   }
 
-  let cancel
-
   socket.on('preset1', function() {
     socket.broadcast.emit('set1')
     clearInterval(cancel)
