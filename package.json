@@ -1,13 +1,13 @@
 {
-  "name": "tonejs",
-  "version": "1.0.0",
+  "name": "socketsynth",
+  "version": "0.1",
   "description": "",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "build": "webpack -w"
   },
-  "author": "",
+  "author": "Ian Halbwachs",
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.2",
