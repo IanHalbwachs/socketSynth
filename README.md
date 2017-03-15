@@ -1,10 +1,11 @@
 # socketSynth by Ian Halbwachs  - ian.halbwachs@gmail.com - soundcloud.com/umanyes
 A distributed mobile syntesizer using Socket.io and Tone.js
+Hear it in action! https://youtu.be/WBm6vPsAwNU
 
 
 v0.1 3/13/16
 -------
-Code is in minimum demonstrable condition!
+Warning: code is in minimum demonstrable condition!
 
 To run:
 npm install
