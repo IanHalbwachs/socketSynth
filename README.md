@@ -1,4 +1,4 @@
-# socketSynth by Ian Halbwachs  - ian.halbwachs@gmail.com - soundcloud.com/umanyes
+# socketSynth by Ian Halbwachs  - ian.halbwachs@gmail.com
 A distributed mobile syntesizer using Socket.io and Tone.js.
 
 Hear it in action! <https://youtu.be/WBm6vPsAwNU>
