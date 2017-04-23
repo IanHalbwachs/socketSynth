@@ -1,6 +1,7 @@
 # socketSynth by Ian Halbwachs  - ian.halbwachs@gmail.com - soundcloud.com/umanyes
 A distributed mobile syntesizer using Socket.io and Tone.js
-Hear it in action! https://youtu.be/WBm6vPsAwNU
+Hear it in action! <https://youtu.be/WBm6vPsAwNU>
+Check it out in Glitch! https://glitch.com/edit/#!/socket-synth
 
 
 v0.1 3/13/16
@@ -12,7 +13,7 @@ npm install
 npm start
 If you modify any code you'll have to run npm build to re-build webpack. 
 
-Make sure your MIDI controller is connected and visit http://localhost:1337/conductor 
+Make sure your MIDI controller is connected and visit http://localhost:1337/conductor
 Open the console and play a few notes -  you should see some activity in both your console and your terminal. 
 
 Any computer or android device that now visits http://localhost:1337/ will be put into 
