@@ -1,12 +1,12 @@
 var io = require('socket.io-client')
 
 var socket = io(window.location.origin);
-const Reverb = require('Tone').JCReverb
-const Chorus = require('Tone').Chorus
-const MonoSynth = require('Tone').MonoSynth
-const FMSynth = require('Tone').FMSynth
-const PolySynth = require('Tone').PolySynth
-const PingPongDelay = require('Tone').PingPongDelay
+const Reverb = require('tone').JCReverb
+const Chorus = require('tone').Chorus
+const MonoSynth = require('tone').MonoSynth
+const FMSynth = require('tone').FMSynth
+const PolySynth = require('tone').PolySynth
+const PingPongDelay = require('tone').PingPongDelay
 
 let pong = new PingPongDelay({delayTime: 0.5, feedback: 0.4, wet: 0.5}).toMaster()
 //console.log(pong.get())

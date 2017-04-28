@@ -8,13 +8,13 @@ var express = require('express');
 var app = express();
 
 var socketio = require('socket.io');
-
+ 
 server.on('request', app);
 
 var io = socketio(server);
 
-server.listen(1337, function () {
-  console.log('The server is listening on port 1337!');
+server.listen(3000, function () {
+  console.log('The server is listening on port 3000!');
 });
 
 app.use(express.static(path.join(__dirname, 'app')));
@@ -89,6 +89,7 @@ io.on('connection', function (socket) {
 
   socket.on('testNote', function(note){
     socket.broadcast.emit('playTestNote')
+    console.log('testing')
 });
 
   socket.on('disconnect', function () {

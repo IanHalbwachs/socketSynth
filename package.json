@@ -1,20 +1,20 @@
 {
   "name": "socketsynth",
-  "version": "0.1",
+  "version": "1",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "build": "webpack -w"
+    "start": "concurrently \"webpack -w\" \"node server.js\" "
   },
   "author": "Ian Halbwachs",
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.2",
     "socket.io": "^1.7.3",
-    "tonal-midi": "^0.69.0",
-    "tone": "^0.9.0",
+    "tonal-midi": "^0.69.5",
+    "tone": "^0.10.0",
     "volleyball": "^1.4.1",
-    "webpack": "^2.2.1"
+    "webpack": "^2.4.1",
+    "concurrently": "^3.4.0"
   }
 }
