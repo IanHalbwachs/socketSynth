@@ -1,22 +1,16 @@
 # socketSynth by Ian Halbwachs  - ian.halbwachs@gmail.com
-A distributed mobile syntesizer using Socket.io and Tone.js.
+A distributed mobile syntesizer using Express, Socket.io and Tone.js. 
 
-Check it out in Glitch! https://glitch.com/edit/#!/socket-synth
+Hear it in action! <https://youtu.be/WBm6vPsAwNU>
 
+Does not yet support iOS devices, working on it...
 
-v0.1 3/13/16
--------
-Warning: code is in minimum demonstrable condition!
+Make sure your MIDI controller is connected and visit 
+<a href="https://socket-synth.glitch.me/conductor" target="_blank">https://socket-synth.glitch.me/conductor</a>.
 
-To run:
-npm install
-npm start
-If you modify any code you'll have to run npm build to re-build webpack. 
-
-Make sure your MIDI controller is connected and visit http://localhost:1337/conductor
 Open the console and play a few notes -  you should see some activity in both your console and your terminal. 
 
-Any computer or android device that now visits http://localhost:1337/ will be put into 
+Any computer or android device that now visits <a href="https://socket-synth.glitch.me" target="_blank">https://socket-synth.glitch.me</a> will be put into 
 one of four socket rooms, in round-robin order. Rooms correspond to and will recieve MIDI 
 channels 1-4 (technically 0-3).
 
@@ -32,5 +26,5 @@ page is left).
 Press 2 for 'windchime' preset. Devices will randomly sound one of last 5 played notes (play more 
 notes to tune it). Press 1 to go back to synth preset.
 
-In another tab in your browser, you can modify the test.js file and visit http://localhost:1337/test 
-to develop more presets before incorporating them into performer.js - remember to re-build. That's it for now, stay tuned!
+In another tab in your browser, you can visit <a href="https://socket-synth.glitch.me/test" target="_blank">https://socket-synth.glitch.me/test</a> (all channels will sound in test mode) and modify test.js
+to develop more presets before incorporating them into performer.js 
