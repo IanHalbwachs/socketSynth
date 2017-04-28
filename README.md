@@ -6,7 +6,6 @@ Check it out in Glitch! https://glitch.com/edit/#!/socket-synth
 
 v0.1 3/13/16
 -------
-Warning: code is in minimum demonstrable condition!
 
 To run:
 npm install
